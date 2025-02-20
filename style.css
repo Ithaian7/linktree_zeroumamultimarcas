@@ -2,7 +2,7 @@
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
 }
 
@@ -12,32 +12,49 @@ body{
     
     
     
+    
 
 
 }
 
+
+
+
+
 .container{
+  
   height: 100%;  
   max-width: 550px ;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
   color: #fff;
+  
  
 
+}
+
+.font{
+
+    color: black;
+   
+    
 }
 
 a{
     text-decoration: none;
     color: #fff;
+
 }
 .degrade{
-    background: linear-gradient(to right, rgb(58, 58, 74), rgb(201, 195, 206));
+    background-color: #fff;
     transition: .2s;
     padding: 15px;
     transition: .2s;
+    border-radius: 8px;
+    
    
     
 }
@@ -51,10 +68,12 @@ header{
 }
 
 header img{
-    max-width: 80px;
+    max-width: 150px;
     margin-bottom: 20px;
     border: none;
     border-radius:100%;
+    
+    
     
 
 }
@@ -63,7 +82,7 @@ header h1{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #ccc;
+    color: #fff;
     font-weight: 300;
 }
 
@@ -72,6 +91,10 @@ section.botoes-links{
     display: flex;
     flex-direction: column;
     gap:20px;
+    color: black;
+    
+    
+   
    
     
    
@@ -85,7 +108,7 @@ a.link button{
     font-size: 15px;
     cursor: pointer;
     transition: .2s;
-    color: #fff;
+    color: black;
     text-decoration: none;
 
    
@@ -93,8 +116,16 @@ a.link button{
     
 
 }
+
+
+
+
+
 a.link button:hover, footer a.cabecalho:hover{
     transform: scale(1.05);
+    color: #fff;
+    box-shadow: #2c2a2a;
+    background-color: #6f6161;
 }
 
 footer{
@@ -104,8 +135,8 @@ footer{
 }
 
 footer a.cabecalho{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     display: inline-block;
     font-size: 25px;
     line-height: 60px;
@@ -113,7 +144,9 @@ footer a.cabecalho{
     margin: 5px;
     margin-top: 1px;
     transition: .2s;
-    background: linear-gradient(to right, rgb(58, 58, 74), rgb(201, 195, 206));
+    background: #fff;
+    background: linear-gradient(to right, rgb(42, 40, 40) , rgb(40, 39, 39), black);
+   
 
 
 }
